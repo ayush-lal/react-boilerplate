@@ -1,6 +1,9 @@
-@import '~bulma';
+@import "~bulma";
+@import "~bootstrap";
+
+@import "./variables";
 
 html,
 body {
-  background-color: #555555;
+  background-color: $primaryColour;
 }
