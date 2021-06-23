@@ -1,9 +1,18 @@
-@import "~bulma";
+@import "~bulma/css/bulma.css";
 @import "~bootstrap";
-
-@import "./variables";
+@import "./variables.module";
 
 html,
 body {
   background-color: $primaryColour;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+::-webkit-scrollbar {
+  display: none !important;
 }
